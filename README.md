@@ -30,9 +30,9 @@
 This is a Capstone_01  project.
 Capstone_01 is a mobile and desktop responsive page.
 
-## 🛠 Built With <a name="built-with">Html, css</a>
+## 🛠 Built With <a name="built-with">Html, css and javascript</a>
 
-### Tech Stack <a name="tech-stack">HTML5, CSS3</a>
+### Tech Stack <a name="tech-stack">HTML5, CSS3, Javacript</a>
 
 HTML5 and css3 which the latest versions were used in this project.
 
@@ -40,7 +40,7 @@ HTML5 and css3 which the latest versions were used in this project.
 
 ### Key Features <a name="key-features"></a>
 
-- **[key_feature_1]** Capstone_01 built with HTML and CSS
+- **[key_feature_1]** Capstone_01 built with HTML5 CSS3 and javascript
 - **[key_feature_2]** Responsive mobile design website
 - **[key_feature_3]** Responsive desktop design website
 
