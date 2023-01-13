@@ -13,11 +13,11 @@ const contents = `
         <div class="col-12">
             <div class="row">
                 <div class="col-4 speakers">
-                    <img src="./images/speaker_01.jpeg" alt="">
+                    <img src="./images/images/speaker_01.png" alt="">
                 </div>
                 <div class="col-8">
                     <p>
-                        <span class="name">yohai benkler</span>
+                        <span class="name">John Kayode</span>
                         <br>
                         <span class="proffesionalism">
                             professor at Harvard Law School
@@ -33,11 +33,11 @@ const contents = `
         <div class="col-12">
             <div class="row">
                 <div class="col-4 speakers">
-                    <img src="./images/images/w_speaker_02.jpeg" alt="">
+                    <img src="./images/images/speaker_02.png" alt="">
                 </div>
                 <div class="col-8">
                     <p>
-                        <span class="name">yohai benkler</span>
+                        <span class="name">Luke Sean</span>
                         <br>
                         <span class="proffesionalism">
                             professor at Harvard Law School
@@ -63,11 +63,11 @@ const contents = `
             <div class="col-12">
                 <div class="row">
                     <div class="col-4 speakers">
-                        <img src="./images/images/w_speaker_07.jpg" alt="">
+                        <img src="./images/images/speaker_03.png" alt="">
                     </div>
                     <div class="col-8">
                         <p>
-                            <span class="name">yohai benkler</span>
+                            <span class="name">Kathy Jonas</span>
                             <br>
                             <span class="proffesionalism">
                                 professor at Harvard Law School
@@ -86,11 +86,11 @@ const contents = `
             <div class="col-12">
                 <div class="row">
                     <div class="col-4 speakers">
-                        <img src="./images/images/speaker_04.jpeg" alt="">
+                        <img src="./images/images/speaker_04.png" alt="">
                     </div>
                     <div class="col-8">
                         <p>
-                            <span class="name">yohai benkler</span>
+                            <span class="name">May Lukas</span>
                             <br>
                             <span class="proffesionalism">
                                 professor at Harvard Law School
@@ -108,11 +108,11 @@ const contents = `
             <div class="col-12">
                 <div class="row">
                     <div class="col-4 speakers">
-                        <img src="./images/images/speaker_05.jpeg" alt="">
+                        <img src="./images/images/speaker_05.png" alt="">
                     </div>
                     <div class="col-8">
                         <p>
-                            <span class="name">yohai benkler</span>
+                            <span class="name">Theresa Baker</span>
                             <br>
                             <span class="proffesionalism">
                                 professor at Harvard Law School
@@ -131,11 +131,11 @@ const contents = `
             <div class="col-12">
                 <div class="row">
                     <div class="col-4 speakers">
-                        <img src="./images/images/speaker_06.jpeg" alt="">
+                        <img src="./images/images/speaker_06.png" alt="">
                     </div>
                     <div class="col-8">
                         <p>
-                            <span class="name">yohai benkler</span>
+                            <span class="name">Logan Baker</span>
                             <br>
                             <span class="proffesionalism">
                                 professor at Harvard Law School

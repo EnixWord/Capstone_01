@@ -11,32 +11,30 @@ const divisionSpeaker = ` <div class="row">
 <div class="col-6">
     <div class="row">
         <div class="col-4 speakers">
-            <img src="./images/speaker_01.jpeg" alt="">
+            <img src="./images/images/speaker_01.png" alt="">
         </div>
         <div class="col-8">
             <p>
-                <span class="name">yohai benkler</span>
+                <span class="name">John Kayode</span>
                 <br>
                 <span class="proffesionalism">
-                    professor at Harvard Law School
+                    Professor at School of Agric-Science
                 </span>
-                <br> Focusing on a collaborative approach in a networked environment, he created the concept
-                of co-production based on sharing, such as open source software and Wikipedia.</p>
+                <br> “Cultivators of the earth are the most valuable citizens. They are the most vigorous, the most independent, the most virtuous, and they are tied to their country and wedded to its liberty and interests by the most lasting bonds.”.</p>
         </div>
     </div>
 </div>
 <div class="col-6">
     <div class="row speakers">
         <div class="col-4">
-            <img src="./images/images/w_speaker_02.jpeg" alt="">
+            <img src="./images/images/speaker_02.png" alt="">
         </div>
         <div class="col-8">
             <p>
-                <span class="name">yohai benkler</span>
+                <span class="name">Luke Sean</span>
                 <br>
-                <span class="proffesionalism">professor at Harvard Law School</span>
-                <br> Focusing on a collaborative approach in a networked environment, he created the concept
-                of co-production based on sharing, such as open source software and Wikipedia.</p>
+                <span class="proffesionalism">CEO Catenx Farms</span>
+                <br> “Future Farmers of America. Group who take ag classes and are going to inherit the farm. Hot shit around here, they have a couple guys in every clique, and they stick together, 'cause they know they'll be seeing each other every week for the next sixty.</p>
         </div>
     </div>
 </div>
@@ -46,32 +44,30 @@ const divisionSpeaker = ` <div class="row">
 <div class="col-6">
     <div class="row">
         <div class="col-4 speakers">
-            <img src="./images/images/w_speaker_07.jpg" alt="">
+            <img src="./images/images/speaker_03.png" alt="">
         </div>
         <div class="col-8">
             <p>
-                <span class="name">yohai benkler</span>
+                <span class="name">Kathy Jonas</span>
                 <br>
                 <span class="proffesionalism">
-                    professor at Harvard Law School
+                    Founder: Wealth of Words
                 </span>
-                <br> Focusing on a collaborative approach in a networked environment, he created the concept
-                of co-production based on sharing, such as open source software and Wikipedia.</p>
+                <br> A farmer is a magician who produces money from the mud.”.</p>
         </div>
     </div>
 </div>
 <div class="col-6">
     <div class="row speakers">
         <div class="col-4">
-            <img src="./images/images/speaker_04.jpeg" alt="">
+            <img src="./images/images/speaker_04.png" alt="">
         </div>
         <div class="col-8">
             <p>
-                <span class="name">yohai benkler</span>
+                <span class="name">May Lukas</span>
                 <br>
                 <span class="proffesionalism">professor at Harvard Law School</span>
-                <br> Focusing on a collaborative approach in a networked environment, he created the concept
-                of co-production based on sharing, such as open source software and Wikipedia.</p>
+                <br> “Woods are grim places. Farmers shoot squirrels, crows, magpies, and hang them up on trees to warn Mother Nature to get it together or else. Much notice she takes, being in league with God. They're a right pair, more carnage than the rest of us put together.”.</p>
         </div>
     </div>
 </div>
@@ -82,32 +78,31 @@ const divisionSpeaker = ` <div class="row">
 <div class="col-6">
     <div class="row">
         <div class="col-4 speakers">
-            <img src="./images/images/speaker_05.jpeg" alt="">
+            <img src="./images/images/speaker_05.png" alt="">
         </div>
         <div class="col-8">
             <p>
-                <span class="name">yohai benkler</span>
+                <span class="name">Theresa Baker</span>
                 <br>
                 <span class="proffesionalism">
-                    professor at Harvard Law School
+                    professor at West Africa School of Agriculture
                 </span>
-                <br> Focusing on a collaborative approach in a networked environment, he created the concept
-                of co-production based on sharing, such as open source software and Wikipedia.</p>
+                <br> Focusing on a collaborative approach in a networked environment, she created the concept
+                of mixed and rotational farming.</p>
         </div>
     </div>
 </div>
 <div class="col-6">
     <div class="row speakers">
         <div class="col-4">
-            <img src="./images/images/speaker_06.jpeg" alt="">
+            <img src="./images/images/speaker_06.png" alt="">
         </div>
         <div class="col-8">
             <p>
-                <span class="name">yohai benkler</span>
+                <span class="name">Logan Baker</span>
                 <br>
                 <span class="proffesionalism">professor at Harvard Law School</span>
-                <br> Focusing on a collaborative approach in a networked environment, he created the concept
-                of co-production based on sharing, such as open source software and Wikipedia.</p>
+                <br> “If you can't plant trees, just imagine how much farmers are doing you a favour by giving you food to survive”.</p>
         </div>
     </div>
 </div>

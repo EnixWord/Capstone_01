@@ -114,7 +114,9 @@ If you like this project give a ⭐️.
 
 <!-- ACKNOWLEDGEMENTS -->
 
-I would like to thank God Almighty and Microverse for the opportunity and motivation.
+## ⭐️ ACKNOWLEDGEMENTS <a name="Cindy Shin"></a>
+
+Origined designed by Cindy Shin in Behance.
 
 <!-- FAQ (optional) -->
 
@@ -144,9 +146,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to Cindy Shin for a wonderful design which i imated to create this page.
 
 ## 📝 License
 
