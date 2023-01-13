@@ -101,9 +101,9 @@ github pages.
 
 
 <!-- Future Features--->
-[future_feature_1] In the future I will replace thge images in the page
-[future_feature_2] I will improve the logo looks.
-[future_feature_3] Contact section so that conference quest can contact host.
+- **[future_feature_1]** In the future I will replace thge images in the page
+- **[future_feature_2]** I will improve the logo looks.
+- **[future_feature_3]** Contact section so that conference quest can contact host.
 
 ## 🤝 Contributing <a name="contributing"></a>
 
