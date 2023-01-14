@@ -1,158 +1,63 @@
-const speakerSection = document.querySelector('#mobile_skpeakers');
-const contents = `
-<div class="row">
-    <div class="col-12">
-        <center>
-            <h2>Featured speakers</h2>
-        </center>
-    </div>
-</div>
+const speakersList = [
+  {
+    name: 'John Kayode',
+    proffesionalism: 'Professor at School of Agric-Science',
+    img: './images/images/speaker_01.png',
+    description:
+      'Cultivators of the earth are the most valuable citizens. ',
+  },
+  {
+    name: 'Luke Sean',
+    proffesionalism: 'CEO Catenx Farms',
+    img: './images/images/speaker_02.png',
+    description:
+      'Future Farmers of America. Group who take ag classes and are going to inherit the farm. ',
+  },
+  {
+    name: 'Kathy Jonas',
+    proffesionalism: 'Founder: Wealth of Words',
+    img: './images/images/speaker_03.png',
+    description: 'A farmer is a magician who produces money from the mud.',
+  },
+  {
+    name: 'May Lukas',
+    proffesionalism: 'professor at Harvard Law School',
+    img: './images/images/speaker_04.png',
+    description:
+      'Woods are grim places. Farmers shoot squirrels, crows, magpies,',
+  },
+  {
+    name: 'Theresa Baker',
+    proffesionalism: 'professor at West Africa School of Agriculture',
+    img: './images/images/speaker_05.png',
+    description:
+      'Focusing on a collaborative approach in a networked environment, ',
+  },
+  {
+    name: 'Logan Baker',
+    proffesionalism: 'professor at Harvard Law School',
+    img: './images/images/speaker_06.png',
+    description:
+      'If you can not plant trees, just imagine how much farmers are doing you a favour by giving you food to survive.',
+  },
+];
 
-<div class="row speakers_cards">
-    <div class="row">
-        <div class="col-12">
-            <div class="row">
-                <div class="col-4 speakers">
-                    <img src="./images/images/speaker_01.png" alt="">
-                </div>
-                <div class="col-8">
-                    <p>
-                        <span class="name">John Kayode</span>
-                        <br>
-                        <span class="proffesionalism">
-                            professor at Harvard Law School
-                        </span>
-                        <br> Focusing on a collaborative approach in a networked environment, he created the
-                        concept of co-production based on sharing, such as open source software and Wikipedia.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+function Mobile(speakers) {
+  const container = document.querySelector('#mobile_skpeakers');
+  const speakerCards = container.querySelectorAll('.mobile_talk');
+  for (let i = 0; i < speakers.length; i += 1) {
+    const speakerData = speakers[i];
+    const speakerCard = speakerCards[i].querySelector('img');
+    speakerCard.src = speakerData.img;
+    speakerCard.alt = speakerData.name;
+    const content = speakerCards[i].querySelector('p');
+    content.innerHTML = `
+                <span class="name">${speakerData.name}</span>
+                <br>
+                <span class="proffesionalism">${speakerData.proffesionalism}</span>
+                <br> ${speakerData.description}
+              `;
+  }
+}
 
-    <div class="row">
-        <div class="col-12">
-            <div class="row">
-                <div class="col-4 speakers">
-                    <img src="./images/images/speaker_02.png" alt="">
-                </div>
-                <div class="col-8">
-                    <p>
-                        <span class="name">Luke Sean</span>
-                        <br>
-                        <span class="proffesionalism">
-                            professor at Harvard Law School
-                        </span>
-                        <br> Focusing on a collaborative approach in a networked environment, he created the
-                        concept of co-production based on sharing, such as open source software and Wikipedia.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--Hiden speakers section in Mobile version-->
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-11" id="click_more">
-            <p class="more_button">show More </p>
-        </div>
-    </div>
-    <!--Hiden speakers section in Mobile version-->
-
-    <section class="hiden">
-        <div class="row">
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-4 speakers">
-                        <img src="./images/images/speaker_03.png" alt="">
-                    </div>
-                    <div class="col-8">
-                        <p>
-                            <span class="name">Kathy Jonas</span>
-                            <br>
-                            <span class="proffesionalism">
-                                professor at Harvard Law School
-                            </span>
-                            <br> Focusing on a collaborative approach in a networked environment, he created
-                            the concept of co-production based on sharing, such as open source software and
-                            Wikipedia.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="row">
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-4 speakers">
-                        <img src="./images/images/speaker_04.png" alt="">
-                    </div>
-                    <div class="col-8">
-                        <p>
-                            <span class="name">May Lukas</span>
-                            <br>
-                            <span class="proffesionalism">
-                                professor at Harvard Law School
-                            </span>
-                            <br> Focusing on a collaborative approach in a networked environment, he created
-                            the concept of co-production based on sharing, such as open source software and
-                            Wikipedia.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-4 speakers">
-                        <img src="./images/images/speaker_05.png" alt="">
-                    </div>
-                    <div class="col-8">
-                        <p>
-                            <span class="name">Theresa Baker</span>
-                            <br>
-                            <span class="proffesionalism">
-                                professor at Harvard Law School
-                            </span>
-                            <br> Focusing on a collaborative approach in a networked environment, he created
-                            the concept of co-production based on sharing, such as open source software and
-                            Wikipedia.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="row">
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-4 speakers">
-                        <img src="./images/images/speaker_06.png" alt="">
-                    </div>
-                    <div class="col-8">
-                        <p>
-                            <span class="name">Logan Baker</span>
-                            <br>
-                            <span class="proffesionalism">
-                                professor at Harvard Law School
-                            </span>
-                            <br> Focusing on a collaborative approach in a networked environment, he created
-                            the concept of co-production based on sharing, such as open source software and
-                            Wikipedia.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Hiden speakers section in Mobile version-->
-
-        <div class="row">
-
-            <div class="col-8" id="click_less">
-                <p class="more_button">show less </p>
-            </div>
-        </div>`;
-speakerSection.innerHTML += contents;
+Mobile(speakersList);
