@@ -1,7 +1,7 @@
-<a name="Capstone_01"></a>
+<a name="West Africa Agricultural Sumbit"></a>
 <div align="center">
   <br/>
-  <h3><b>Capstone_01</b></h3>
+  <h3><b>West Africa Agricultural Sumbit</b></h3>
 </div>
 # 📗 Table of Contents
 
@@ -25,14 +25,14 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Capstone_01] <a name="Capstone_01">Capstone_01</a>
+# 📖 [West Africa Agricultural Sumbit] <a name="Capstone_01">Capstone_01</a>
 
-This is a Capstone_01  project.
-Capstone_01 is a mobile and desktop responsive page.
+This is a West Africa Agricultural Sumbit  project.
+West Africa Agricultural Sumbit is a mobile and desktop responsive page.
 
-## 🛠 Built With <a name="built-with">Html, css</a>
+## 🛠 Built With <a name="built-with">Html, css and javascript</a>
 
-### Tech Stack <a name="tech-stack">HTML5, CSS3</a>
+### Tech Stack <a name="tech-stack">HTML5, CSS3, Javacript</a>
 
 HTML5 and css3 which the latest versions were used in this project.
 
@@ -40,7 +40,7 @@ HTML5 and css3 which the latest versions were used in this project.
 
 ### Key Features <a name="key-features"></a>
 
-- **[key_feature_1]** Capstone_01 built with HTML and CSS
+- **[key_feature_1]** West Africa Agricultural Sumbit built with HTML5 CSS3 and javascript
 - **[key_feature_2]** Responsive mobile design website
 - **[key_feature_3]** Responsive desktop design website
 
@@ -99,6 +99,12 @@ github pages.
 
 <!-- CONTRIBUTING -->
 
+
+<!-- Future Features--->
+- **[future_feature_1]** In the future I will replace thge images in the page
+- **[future_feature_2]** I will improve the logo looks.
+- **[future_feature_3]** Contact section so that conference quest can contact host.
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -114,7 +120,9 @@ If you like this project give a ⭐️.
 
 <!-- ACKNOWLEDGEMENTS -->
 
-I would like to thank God Almighty and Microverse for the opportunity and motivation.
+## ⭐️ ACKNOWLEDGEMENTS <a name="Cindy Shin"></a>
+
+Origined designed by Cindy Shin in Behance.
 
 <!-- FAQ (optional) -->
 
@@ -144,9 +152,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to Cindy Shin for a wonderful design which i imated to create this page.
 
 ## 📝 License
 
